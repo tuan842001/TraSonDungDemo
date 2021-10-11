@@ -1,0 +1,385 @@
+:root {
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+    background-color: #f1f3fa;
+
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size:18px;
+  
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Oswald', sans-serif;
+  background-color: #f1f3fa;
+}
+
+
+.topbar {
+  display: inline-block;
+  background-color: #0a51c5;
+  position:relative;
+  height: 50px !important;
+  min-height: 50px !important;
+  width: 100%;
+  border: 0px;
+  margin: 0;
+  padding: 0px;
+  box-shadow: none;
+  filter: none;
+}
+
+.btn-login {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 4.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem .75rem;
+    font-size: 0rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.top-left {
+    display: block;
+    background-color: #0a51c5;
+    width: 70px;
+    height: 50px;
+    float: left;
+    border-right: 1px solid #dce0ec !important;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.top-right{
+  border-left: 1px solid #dce0ec !important;
+}
+.btn-language{
+  float: right !important;
+  width: 75px;
+  height: 50px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.check {
+  background-color: #dff0d8;
+  padding: 20px;
+  text-align: center;
+}
+.check h2 {
+  font-size: 25px;
+  padding: 15px;
+  color: #529d44;
+}
+.check img {
+  width: 100px;
+}
+
+.container1 {
+  display: flex;
+  background-color: #ffffff;
+  padding:5px 5px 10px;
+}
+.logo {
+  margin: 15px;
+  height: 127px;
+}
+.information {
+  display: block;
+  margin: 15px;
+}
+
+.information h4 {
+  color: red;
+  text-transform: uppercase;
+}
+
+.information b{
+  padding-right: 10px;
+}
+.information P{
+  margin:17px 0px;
+}
+
+.information button {
+  background-color: #5cb85c;
+  width: 100px;
+  height: 40px;
+  border-color:#000000;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.rate {
+  background-color: #f1f3fa;
+}
+.rate-btn p:hover{
+  color: #FFD700;
+}
+.rate-btn {
+  display: flex;
+  color:#337ab7;
+  padding:15px 12px 20px 35px;
+  text-align:center;
+  align-items: center;
+  cursor: pointer;
+  width: 444px;
+}
+.hart path {
+  color:#337ab7;
+}
+
+.btn-reviews {
+  display: inline-block;
+    font-weight: 500;
+    line-height: 4.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem .75rem;
+    font-size: 0rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.rate-btn p {
+  color:#337ab7;
+  margin:0px 10px;
+}
+
+.rate-btn i {
+  color:#337ab7;
+}
+
+#rating {
+  color:#337ab7;
+  cursor: pointer;
+}
+#rating label{
+  cursor: pointer;
+}
+
+.title-head {
+  background-color: #ffffff;
+  padding: 15px 5px;
+}
+.title-head b {
+  font-size: 20px;
+}
+
+.porlet-body {
+  padding: 25px;
+  background-color: #f1f3fa;
+}
+.body-top span {
+  display: flex;
+}
+.body-top b {
+  padding-right: 5px;
+}
+
+.thong-tin-san-pham {
+  padding: 20px 0px;
+}
+.thong-tin p {
+  text-indent:30px;
+}
+
+.geography{
+  padding: 25px 0px;
+  
+}
+
+.geography b {
+  font-size: 20px;
+}
+.anh {
+  text-align: center;
+}
+.geography img{
+  display: inline-flexbox;
+  width:50%; 
+  height:100%;
+  margin: 50px;
+}
+.giay-chung-nhan {
+  display: inline-flex;
+  width: 80%;
+  justify-content: center;
+}
+
+.body-midle {
+  line-height: 0.6;
+}
+.tile-midle {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.span-midle {
+  display: flex;
+}
+.span-midle b {
+  color: #ff8c00;
+  padding-right: 10px;
+}
+
+.body-bottom {
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+.bottom-tile {
+  padding: 15px 0px;
+  border-color:#f1f3fa;
+  border-bottom: solid;
+  border-width: 0.01px;
+}
+.body-bottom span {
+  display: flex;
+  align-items: baseline;
+}
+
+.body-bottom span b, i {
+  padding-right: 10px;
+}
+
+.Contact-info {
+  line-height: 0.5;
+  padding-top: 10px;
+}
+.Contact-info p{
+  padding-left: 10px;
+}
+
+div.stars {
+  width: 270px;
+  display: inline-block;
+}
+ 
+input.star { display: none; }
+ 
+label.star {
+  float: right;
+  padding: 10px;
+  font-size: 36px;
+  color: #444;
+  transition: all .2s;
+}
+
+
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+/****** Style Star Rating Widget *****/
+#rating{border:none;float:left;}
+#rating>input{display:none;}/*ẩn input radio - vì chúng ta đã có label là GUI*/
+#rating>label:before{margin:5px;font-size:1.25em;font-family:FontAwesome;display:inline-block;content:"\f005";}/*1 ngôi sao*/
+#rating>.half:before{content:"\f089";position:absolute;}/*0.5 ngôi sao*/
+#rating>label{color:#ddd;float:right;}/*float:right để lật ngược các ngôi sao lại đúng theo thứ tự trong thực tế*/
+/*thêm màu cho sao đã chọn và các ngôi sao phía trước*/
+#rating>input:checked~label,
+#rating:not(:checked)>label:hover, 
+#rating:not(:checked)>label:hover~label{color:#FFD700;}
+/* Hover vào các sao phía trước ngôi sao đã chọn*/
+#rating>input:checked+label:hover,
+#rating>input:checked~label:hover,
+#rating>label:hover~input:checked~label,
+#rating>input:checked~label:hover~label{color:#FFED85;}
+
+/* Star CSS Mobile */
+
+@media only screen and (max-width:1200px) {
+  /* Your code CSS */
+}
+
+@media only screen and (max-width:996px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 414px) {
+  * {
+      font-size:14px;
+  }
+  .btn-bars {
+      width: 60px;
+  }
+  #language-btn {
+      width: 173px;
+  }
+  .language-form-container{
+      width: 200px;
+      right: 3%;
+  }
+  .check img {
+      width: 90px;
+  }
+  .information {
+      margin: 0px 15px;
+  }
+  .logo {
+      margin: 5px;
+      height: 90px;
+  }
+  .information h4{
+      margin: 0px;
+      padding-bottom: 9px;
+  }
+  .information button {
+      width: 85px;
+      height: 35px;
+  }
+  .rate {
+      padding: 5px 15px;
+  }
+  .portlet-body {
+      padding: 5px;
+  }
+  .body-top span{
+      padding: 5px 0px;
+  }
+  .geography img {
+      width: 90%;
+      margin: 15px 0px;
+  }
+  .geography b {
+      font-size: 14px;
+      padding: 15px;
+  }
+  .body-bottom {
+      padding: 5px;
+  }
+  .body-bottom span {
+      align-items: baseline;
+  }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+}
